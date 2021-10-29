@@ -42,6 +42,7 @@ $pickfile.Add_Click({
         Multiselect = $false # Multiple files can be chosen
 
     }
+    $FileBrowser.InitialDirectory = “C:\”
     [void]$FileBrowser.ShowDialog()
     $FilePath = $FileBrowser.FileName;
     $FilePathTextBox.Clear()
