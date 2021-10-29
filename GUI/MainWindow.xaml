@@ -1,0 +1,20 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="Powershell Hash Calculator | https://github.com/Tainted06/Hash-Calculator" Height="275" Width="700">
+    <Grid>
+        <TextBox IsReadOnly="True" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="File" VerticalAlignment="Top" Width="492"/>
+        <TextBox IsReadOnly="True" HorizontalAlignment="Left" Height="196" Margin="10,38,0,0" TextWrapping="Wrap" Text="SHA1 Hash: &#xD;&#xA;&#xD;&#xA;SHA256 Hash: &#xD;&#xA;&#xD;&#xA;SHA384 Hash: &#xD;&#xA;&#xD;&#xA;SHA512 Hash: &#xD;&#xA;&#xD;&#xA;MD5 Hash: " VerticalAlignment="Top" Width="110" RenderTransformOrigin="-0.758,-3.652" TextChanged="TextBox_TextChanged" FontSize="16" BorderThickness="0"/>
+        <Button Content="Calculate Hash" HorizontalAlignment="Left" Margin="597,10,0,0" VerticalAlignment="Top" Width="85" Height="23"/>
+        <Button Content="Select File" HorizontalAlignment="Left" Margin="507,10,0,0" VerticalAlignment="Top" Width="85" Height="23"/>
+        <TextBox IsReadOnly="True" HorizontalAlignment="Left" Height="24" Margin="125,38,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="15"/>
+        <TextBox IsReadOnly="True" HorizontalAlignment="Left" Height="24" Margin="125,78,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="15"/>
+        <TextBox IsReadOnly="True" HorizontalAlignment="Left" Height="43" Margin="125,114,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="15" TextChanged="TextBox_TextChanged_1"/>
+        <TextBox IsReadOnly="True" HorizontalAlignment="Left" Height="39" Margin="125,163,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="15"/>
+        <TextBox IsReadOnly="True" HorizontalAlignment="Left" Height="24" Margin="125,210,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="15"/>
+    </Grid>
+</Window>
