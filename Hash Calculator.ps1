@@ -17,7 +17,7 @@ Add-Type -AssemblyName System.Windows.Forms
         <TextBox x:Name = "sha1" IsReadOnly="True" HorizontalAlignment="Left" Height="24" Margin="125,38,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="15"/>
         <TextBox x:Name = "sha256" IsReadOnly="True" HorizontalAlignment="Left" Height="40" Margin="125,70,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="15"/>
         <TextBox x:Name = "sha384" IsReadOnly="True" HorizontalAlignment="Left" Height="43" Margin="125,114,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="15"/>
-        <TextBox x:Name = "sha512" IsReadOnly="True" HorizontalAlignment="Left" Height="39" Margin="125,163,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="15"/>
+        <TextBox x:Name = "sha512" IsReadOnly="True" HorizontalAlignment="Left" Height="39" Margin="125,163,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="11"/>
         <TextBox x:Name = "md5" IsReadOnly="True" HorizontalAlignment="Left" Height="24" Margin="125,210,0,0" TextWrapping="Wrap" Text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" VerticalAlignment="Top" Width="557" FontSize="15"/>
     </Grid>
 </Window>
